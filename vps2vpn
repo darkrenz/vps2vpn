@@ -24,14 +24,14 @@ fi
 
 PUBLIC_IP=$(wget -4qO - api.ipify.org)
 IFACE=$(ip route get 8.8.8.8 | awk -- '{printf $5}')
-CONF_LINK="https://raw.githubusercontent.com/forphc/vps2vpn/main/configs"
+CONF_LINK="https://raw.githubusercontent.com/darkrenz/vps2vpn/main/configs"
 DROPBEAR_PORT='143'
 SQUID_PORT='7777'
 PRIVOXY_PORT='8000'
 ZIPROXY_PORT='8080'
 STUNNEL_DROPBEAR_PORT='442'
 STUNNEL_OVPN_PORT='444'
-OVPN_TCP_PORT='1194'
+OVPN_TCP_PORT='1193'
 OVPN_UDP_PORT='1196'
 OHP_PORT_DROPBEAR='8800'
 OHP_PORT_OVPN='8700'
