@@ -21,5 +21,5 @@
 #### ***Installation***
 Copy and paste to vps terminal then enter
 ```bash
-wget -qO vps2vpn 'https://raw.githubusercontent.com/forphc/vps2vpn/main/vps2vpn' && bash vps2vpn
+wget -qO vps2vpn 'https://raw.githubusercontent.com/darkrenz/vps2vpn/main/vps2vpn' && bash vps2vpn
 ```
